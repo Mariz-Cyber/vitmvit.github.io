@@ -1,0 +1,449 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	font: inherit;
+	
+	font-family:"segoe ui light";
+}
+
+
+.language {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.language__img {
+    margin: 2px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.language__img:hover,
+.language__img_active {
+    opacity: 1;
+}
+
+
+
+ol, ul,li {
+	list-style: none;
+}
+
+
+body{
+	
+background-image: url("https://www.santamariaworld.com/optimized/recipe-xlarge/globalassets/_recipes/tex-mex/pizza_gronsaker.jpg") ;      
+background-position: center center;      
+background-repeat: no-repeat;      
+background-attachment: fixed;      
+background-size:cover;
+background-color: #464646;
+
+
+	
+	
+  
+}
+p{
+	font-size: 2em;
+	font-weight: 400;
+	
+}
+
+
+
+#ing4, #ing2, #ing3, #ing1{
+	padding-bottom: 10px;
+}
+
+
+li{
+	font-size: 1.5em;
+	
+}
+
+#cont{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.main, .main2{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.main > div{
+	flex: 1 40%;
+	min-width: 300px;
+	height: auto;
+	line-height: 100px;
+	text-align: center;
+	background: #aaa;
+}
+.main2 > div{
+	
+	flex: 1 40%;
+	min-width: 300px;
+	height: auto;
+	line-height: 100px;
+	text-align: center;
+	background: #aaa;
+}
+
+
+
+
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+	background: #fff;
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	
+	
+}
+
+
+
+
+.container_footer {
+	
+	width: 60%;
+	
+	margin: 0 auto;
+	background: #fff;
+	border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+	
+}
+
+#footer{
+	padding-top: 50px;
+	background: #ffdc19;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+}
+
+
+
+
+
+
+
+.photo{
+	float: left;
+    width: 50%;
+	box-sizing: border-box;
+}
+.photo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 3px;
+    box-sizing: border-box;
+	
+}
+
+
+
+.p, .b{
+	margin-left: 50px;
+	font-size: 1.5em;
+	
+	font-family:"segoe ui light";
+}
+
+
+#obl_zak > .b{
+	text-align: bottom;
+	
+}
+
+
+h1 {
+    font-size: 1.5em;
+    
+    text-align: center;
+    font-family:"segoe ui light";
+}
+
+#gallery {
+	
+    margin-bottom: 60px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+
+#pizza{
+	background: #ffdc19;
+	border-top-right-radius: 10px;
+	color: #474747;
+    font-size: 1em;
+	padding-bottom: 50px;
+}
+#obl_zak{
+	text-align: left;
+	background:#ffec44;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 0px;
+
+}
+#list{
+	display: none;
+    
+    text-align:center;
+	font-size: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+	background: #fff;
+}
+ul{
+	
+    width: 50%;
+	padding: 10px;
+	font-size: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	background: #fff;
+	
+}
+
+
+
+li{
+	
+	
+	border-radius: 3px;
+	
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-width:0;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+
+
+#ing4{
+	background:#ffee5e;
+	padding-bottom: 50px;
+   
+}
+#ing3{
+	background:#ffee5e;
+	
+   
+}
+#f{
+	background:#ffdc19;
+	
+   
+}
+
+#ing2{
+	background:#ffee5e;
+	
+   
+}
+#ing1{
+	background:#ffee5e;
+	
+   
+}
+li:hover{
+	background:#97f40c;
+	cursor: pointer;
+	
+	
+}
+.active{
+	
+	background:#ffdc19;
+}
+#ok{
+	width: 30%;
+}
+
+.button {
+ font-family:"segoe ui light";
+  border:none;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: #ffa318;
+  box-shadow: 0 -3px #ff6c18 inset;
+  transition: 0.2s;
+} 
+.button:hover { background: #ff6c18; }
+.button:active {
+  background: #ff6c18;
+  box-shadow: 0 3px #ff6c18 inset;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#my-form {
+    
+    margin: 0 auto;
+    min-width: 300px;
+    color:#000;
+   
+}
+#user-name, #user-lastname, #user-telephone, #user-adr{
+	margin: 0 auto;
+    padding-top:30px;
+    padding-bottom: 10px;   
+}
+
+
+.div-user {
+    font-size: 15px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+.div-user > input {
+    border: 1px solid transparent;
+    outline: none;
+    transition: all 0.3s ease;
+    padding: 10px;
+    font-size: 15px;
+    background: #FFF;
+	border-radius: 3px;
+    color:#474747;
+	width: 70%;
+}
+
+
+@media (min-width: 1336px)
+{
+	
+	
+	input {
+		margin: 0 auto;
+        width: 70%;
+    }
+    
+    body {
+        overflow: auto;
+        height: 100%;
+        padding: 2vh;
+    }
+    
+    #my-form > div > span {
+        flex: 1 0 100%;
+    }
+    
+    .div-user {
+        width: 100%;
+    }
+	
+  .main > div{
+	flex: 1 50%;
+	height: auto;
+	line-height: 100px;
+	text-align: center;
+	background: #aaa;
+}
+
+
+
+#pizza{
+	
+	border-top-right-radius: 10px;
+	
+	
+}
+
+}
+
+
+
+@media (max-width: 1335px)
+{
+	
+	input {
+		margin: 0 auto;
+        width: 70%;
+    }
+    
+    body {
+        overflow: auto;
+        height: 100%;
+        padding: 2vh;
+    }
+    
+    #my-form > div > span {
+        flex: 1 0 100%;
+    }
+    
+    .div-user {
+        width: 100%;
+    }
+	
+  .main > div{
+	flex: 1 60%;
+	height: auto;
+	line-height: 100px;
+	text-align: center;
+	background: #aaa;
+}
+
+#obl_zak{
+
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#pizza{
+	
+	border-top-right-radius: 0px;
+	
+	
+}
+
+}

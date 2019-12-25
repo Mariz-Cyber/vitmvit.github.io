@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+<title>PIZZA</title>
+
+</head>
+
+ 
+ 
+ 
+<body>
+	<div class="language">
+        <img src="images/lang/lang__ru.png" alt="ru" data-google-lang="ru" class="language__img">
+        <img src="images/lang/lang__en.png" alt="en" data-google-lang="en" class="language__img">
+        <img src="images/lang/lang__de.png" alt="de" data-google-lang="de" class="language__img">
+        <img src="images/lang/lang__fr.png" alt="fr" data-google-lang="fr" class="language__img">
+        <img src="images/lang/lang__pt.png" alt="pt" data-google-lang="pt" class="language__img">
+    </div>
+ <div id="cont">   
+    <div class="main" id="m1">
+       
+	   <div id="obl_zak">
+	   <p class="b">ЗАКАЗ:</p>
+	      <div id="list"></div>  <p class="p">ЦЕНА: 0 руб.</p>
+	   </div>
+	   <div id="pizza" data-proportion-targer-w="1" data-proportion-target="obl_zak">     
+	      <div class="container">
+        
+            <h1>ГОТОВНОСТЬ:</h1>
+			 
+          
+            <div id="gallery">
+
+                   <div class="photo" >
+                       <img id="myimage" src="img/img1.jpg"/>
+                   
+                   </div>
+
+                   <div class="photo" >
+                       <img id="myimage2" src="img/img2.jpg"/>
+                    
+                   </div>
+
+                   <div class="photo" >
+                       <img id="myimage3" src="img/img3.jpg"/>
+					   
+                    
+                   </div>
+   
+                   <div class="photo" >
+                      <img id="myimage4" src="img/img4.jpg"/>
+                   
+                   </div>
+				   
+				   
+               </div>
+			   <a href="#"><button id="button7" class="button" onclick="document.getElementById('toggler').scrollIntoView(true);return false;" >К ОФОРМЛЕНИЮ</button></a>
+			  
+			   </div>
+          
+		   
+		</div>
+		
+		
+		
+		
+	   <div id="ing1" data-proportion-targer-w="1" data-proportion-target="obl_zak">
+	   
+	   <article>
+	      <p class="wid">ОСНОВА (ТЕСТО)</p>
+	      
+       </article>	  
+	   <ul id="ocn">
+		   <li>Дрожжевое </li>
+		   <li>Бездрожжевое </li>
+		   <li>Слоёное </li>
+		  <li>Вытяжное </li>
+	   </ul>
+	   </div>
+	   
+	   
+	   
+	   
+	   <div id="ing2" data-proportion-targer-w="1" data-proportion-target="obl_zak">
+	   
+	   <article>
+	     <p class="wid">СОУС</p> 
+       </article>	 
+	      <ul id="sous">
+		   <li>Томатный соус </li>
+		   <li>Белый соус </li>
+		   <li>Чесночный соус </li>
+		   <li>Чёрный соус </li>
+		   
+		  </ul>
+		  
+	   </div>
+	   
+	   
+	   
+	   
+	   <div id="ing3" data-proportion-targer-w="1" data-proportion-target="obl_zak">
+	   
+	   <article>
+	     <p class="wid">МЯСНЫЕ ПРОДУКТЫ</p> 
+       </article>
+	   <ul id="i1">
+		   <li>Колбаса копчёная </li>
+		   <li>Колбаса варёная </li>
+		   <li>Курица </li>
+		   <li>Бекон </li>
+		   
+		</ul> 
+		
+	    </div>
+		
+		
+		
+		
+	      <div id="ing4" data-proportion-targer-w="1" data-proportion-target="obl_zak">
+	      
+		     <article>
+	           <p class="wid">РАСТИТЕЛЬНЫЕ ПРОДУКТЫ</p> 
+             </article>	   
+	         <ul id="i2">
+		        <li>Томаты </li>
+		        <li>Оливки </li>
+		        <li>Ананас </li>
+			    <li>Шампиньоны </li>
+		     
+		     </ul>
+		  
+	      </div>
+		  
+	 </div>
+		  <div class="main2" id="main" name="none">
+		   <div id="f" data-proportion-targer-w="1" data-proportion-target="obl_zak">
+	      
+		 
+        <a href="#" onclick="openbox('box'); return false" class="button" id="toggler">ОФОРМЛЕНИЕ ЗАКАЗА</a>
+       <div id="box" style="display: none;"> 
+      <form action="" id="my-form">
+       
+       <article>
+	  
+
+           
+
+            
+        </article>
+
+        <div id="user-name" class="div-user">
+            <span>Имя:</span>
+            <input type="text" >
+        </div>
+
+        
+
+        <div id="user-telephone"  class="div-user">
+            <span>Телефон:</span>
+            <input type="tel" >
+        </div>
+		
+		<div id="user-adr"  class="div-user">
+            <span>Адрес:</span>
+            <input type="text" >
+        </div>
+   
+    </form>
+	<div>
+		    
+        <input type="submit" value="ЗАКАЗАТЬ!" id="ok" class="button">
+        </div>
+	</div>
+	
+		  
+	      </div> 
+		  
+		</div>
+		
+		
+		
+		<div class="main">
+		  
+		   <div id="footer">
+	      
+		  <div class="container_footer">
+		  <h1>ПРИЯТНОГО АППЕТИТА!</h1>
+		  </div>
+		  
+	      </div>
+	   </div>
+	
+  </div>	
+	
+	<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script type='text/javascript' src='https://sourse.xakplant.ru/lib/js/stickjaw.min.js'></script>
+	
+	<script src="js/script.js"></script>
+	
+	
+	
+
+	
+</body>
+</html>
