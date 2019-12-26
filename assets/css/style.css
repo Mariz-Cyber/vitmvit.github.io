@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 
     position: absolute;
     top: 24px;
-    right: 132px;
+    right: 122px;
     z-index: 1;
 }
 .tr {
@@ -1554,7 +1554,14 @@ text-align: center;
 		padding: 10px 0 20px 0;
     }
 
-
+.tr_nav{
+        display: block;
+		padding: 10px 0 20px 0; 
+    }
+    .tr_nav2{
+        display: block;
+		padding: 10px 0 20px 0; 
+    }
  
     .section {
         padding: 40px 0;
