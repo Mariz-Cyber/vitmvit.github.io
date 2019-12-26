@@ -1319,19 +1319,13 @@ text-align: center;
 @media all and (orientation:landscape) {
 
     .language {
-    bottom: 10%;
+    bottom: 5%;
 }
 
 }
 @media (max-height: 575px) and (orientation:landscape) {
 
-    .language {
-   
-   
-   bottom: 5%;
-   
-    
-}
+
 .language__img {
     max-width: 50%;
     margin: 10px;
