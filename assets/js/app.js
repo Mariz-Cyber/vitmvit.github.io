@@ -239,7 +239,7 @@ const googleTranslateConfig = {
 function TranslateInit() {
     let code = TranslateGetCode();
     // Находим флаг с выбранным языком для перевода и добавляем к нему активный класс
-    $('[data-google-lang="' + code + '"]').addClass('language__img_active');
+    $('[data-google-lang="' + code + '"]').addClass('tr_active');
 
     if (code == googleTranslateConfig.lang) {
         // Если язык по умолчанию, совпадает с языком на который переводим
