@@ -352,7 +352,7 @@ background:rgba(0,0,0, 0.5);
     display: none;
   padding-left: 15px;
     padding-bottom: 10px;
-    padding-top: : 10px;
+    padding-top:  10px;
 }
 .active_link {
     color: #fce38a;
@@ -752,7 +752,7 @@ p{
     flex: 1 1 0;
     padding: 70px 25px;
 
-   //*border-left: 1px solid #ffad99;*/
+   /*border-left: 1px solid #ffad99;*/
 
     text-align: center;
     color: #fff;
