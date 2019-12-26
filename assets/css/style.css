@@ -1316,6 +1316,13 @@ text-align: center;
 .language__img_active {
     opacity: 1;
 }
+@media all and (orientation:landscape) {
+
+    .language {
+    bottom: 10%;
+}
+
+}
 
 @media (max-width: 1230px) {
 
